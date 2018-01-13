@@ -106,6 +106,6 @@ If you find flow-GANs useful in your research, please consider citing the follow
 
 >@inproceedings{grover2018flowgan,  
   title={Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models},  
-  author={Grover, Aditya and Dhar, Manik, and Ermon, Stefano},  
+  author={Grover, Aditya and Dhar, Manik and Ermon, Stefano},  
   booktitle={AAAI Conference on Artificial Intelligence},  
   year={2018}}
