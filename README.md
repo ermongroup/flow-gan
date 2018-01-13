@@ -55,7 +55,7 @@ Learning and inference of Flow-GAN models is handled by the `main.py` script whi
 
 ## Examples
 
-### Flow-GAN training on MNIST with NICE architecture.
+### Training flow-GAN models on the MNIST dataset with NICE architecture.
 
 *Maximum Likelihood Estimation (MLE)*
 ```
@@ -75,7 +75,7 @@ python main.py --dataset mnist --input_height=28 --c_dim=1  --checkpoint_dir che
 --prior logistic --beta1 0.5 --learning_rate 1e-4 --alpha 1e-7 --reg 10.0 --epoch 500 --batch_size 100 --like_reg 1.0 --n_critic 5 --no_of_layers 5
 ```
 
-### Flow-GAN training on CIFAR with Real-NVP architecture.
+### Training flow-GAN models on the CIFAR dataset with Real-NVP architecture.
 
 *Maximum Likelihood Estimation (MLE)*
 ```
@@ -101,11 +101,11 @@ Portions of the codebase in this repository uses code originally provided in the
 
 ## Citing
 
-If you find Flow-GANs useful in your research, please consider citing the following paper:
+If you find flow-GANs useful in your research, please consider citing the following paper:
 
 
 >@inproceedings{grover2018flowgan,  
   title={Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models},  
-  author={Grover, Aditya, Dhar, Manik, and Ermon, Stefano},  
+  author={Grover, Aditya and Dhar, Manik, and Ermon, Stefano},  
   booktitle={AAAI Conference on Artificial Intelligence},  
   year={2018}}
